@@ -1,4 +1,4 @@
 package com.ozancanguz.artbooktesting.repository
 
-class ArtRepository {
+class ArtRepository:ArtRepositoryInterface {
 }
