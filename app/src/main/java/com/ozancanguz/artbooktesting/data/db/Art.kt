@@ -1,4 +1,4 @@
-package com.ozancanguz.artbooktesting.data
+package com.ozancanguz.artbooktesting.data.db
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
