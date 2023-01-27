@@ -6,7 +6,9 @@ import com.ozancanguz.artbooktesting.data.db.Art
 import com.ozancanguz.artbooktesting.data.db.ArtDao
 import com.ozancanguz.artbooktesting.data.model.ImageResponse
 import com.ozancanguz.artbooktesting.util.Resource
+import dagger.hilt.android.scopes.ViewModelScoped
 import javax.inject.Inject
+
 
 class ArtRepository@Inject constructor(private val artDao: ArtDao,
                                        private val imageApi: ImageApi

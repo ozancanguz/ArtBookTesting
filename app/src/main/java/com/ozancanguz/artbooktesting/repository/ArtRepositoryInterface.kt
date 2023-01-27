@@ -4,6 +4,8 @@ import androidx.lifecycle.LiveData
 import com.ozancanguz.artbooktesting.data.db.Art
 import com.ozancanguz.artbooktesting.data.model.ImageResponse
 import com.ozancanguz.artbooktesting.util.Resource
+import dagger.hilt.android.scopes.ViewModelScoped
+
 
 interface ArtRepositoryInterface {
 
