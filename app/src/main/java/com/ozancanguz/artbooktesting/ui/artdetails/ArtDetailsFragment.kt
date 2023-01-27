@@ -8,8 +8,9 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.ozancanguz.artbooktesting.R
 import com.ozancanguz.artbooktesting.databinding.FragmentArtDetailsBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class ArtDetailsFragment : Fragment() {
 
     private var _binding: FragmentArtDetailsBinding? = null

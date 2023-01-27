@@ -7,8 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.ozancanguz.artbooktesting.R
 import com.ozancanguz.artbooktesting.databinding.FragmentImageApiBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class ImageApiFragment : Fragment() {
 
     private var _binding: FragmentImageApiBinding? = null
