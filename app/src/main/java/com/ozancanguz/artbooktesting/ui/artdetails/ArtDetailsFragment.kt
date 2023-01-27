@@ -6,18 +6,18 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import com.bumptech.glide.RequestManager
 import com.ozancanguz.artbooktesting.R
 import com.ozancanguz.artbooktesting.databinding.FragmentArtDetailsBinding
 import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
 @AndroidEntryPoint
-class ArtDetailsFragment : Fragment() {
+class ArtDetailsFragment@Inject constructor(val glide:RequestManager ): Fragment() {
 
     private var _binding: FragmentArtDetailsBinding? = null
 
     private val binding get() = _binding!!
-
-
 
 
 

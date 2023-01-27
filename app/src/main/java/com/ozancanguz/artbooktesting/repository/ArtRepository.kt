@@ -9,7 +9,7 @@ import com.ozancanguz.artbooktesting.util.Resource
 import dagger.hilt.android.scopes.ViewModelScoped
 import javax.inject.Inject
 
-
+@ViewModelScoped
 class ArtRepository@Inject constructor(private val artDao: ArtDao,
                                        private val imageApi: ImageApi
                                        ):ArtRepositoryInterface {
