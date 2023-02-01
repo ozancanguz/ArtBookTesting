@@ -21,6 +21,8 @@ class ArtDetailsFragment@Inject constructor(val glide:RequestManager ): Fragment
 
 
 
+
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
