@@ -8,6 +8,8 @@ import com.ozancanguz.artbooktesting.R
 import com.ozancanguz.artbooktesting.data.api.ImageApi
 import com.ozancanguz.artbooktesting.data.db.ArtDao
 import com.ozancanguz.artbooktesting.data.db.ArtDatabase
+import com.ozancanguz.artbooktesting.repository.ArtRepository
+import com.ozancanguz.artbooktesting.repository.ArtRepositoryInterface
 import com.ozancanguz.artbooktesting.util.Constants.Companion.BASE_URL
 import dagger.Module
 import dagger.Provides
@@ -42,7 +44,7 @@ object AppModule {
             .baseUrl(BASE_URL).build().create(ImageApi::class.java)
     }
 
-    /*
+
     @Singleton
     @Provides
     fun injectNormalRepo(dao : ArtDao, api: ImageApi) = ArtRepository(dao,api) as ArtRepositoryInterface
@@ -57,6 +59,6 @@ object AppModule {
                 .error(R.drawable.ic_launcher_foreground)
         )
 
-     */
+
 
 }
