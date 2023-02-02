@@ -23,3 +23,6 @@ of the app is learning android testing.
 **Arhictecture:**
 
 - MVVM
+
+![image](https://user-images.githubusercontent.com/64928807/216363834-f7c23454-93f9-4551-8ade-a39781111f6e.png)
+
