@@ -1,8 +1,8 @@
 # ArtBookTesting
 
 
--I am building a artbook android mobile app. The main goal 
-of the app is learning android testing. 
+-I have developed a artbook android mobile app. The main goal 
+of the app is learning android testing.
 
 **Tools that I used** :
 
