@@ -26,4 +26,8 @@ of the app is learning android testing.
 
 ![image](https://user-images.githubusercontent.com/64928807/216788722-3932fc3c-2aa3-4564-b2a3-129c334f50b5.png)
 
+----------------------------------DEMO----------------------------------
+
+![testing](https://user-images.githubusercontent.com/64928807/216788977-21024a5a-4cd5-4f89-8eb8-025edb8e521a.gif)
+
 
