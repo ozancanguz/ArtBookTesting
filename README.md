@@ -24,5 +24,6 @@ of the app is learning android testing.
 
 - MVVM
 
-![image](https://user-images.githubusercontent.com/64928807/216363834-f7c23454-93f9-4551-8ade-a39781111f6e.png)
+![image](https://user-images.githubusercontent.com/64928807/216788722-3932fc3c-2aa3-4564-b2a3-129c334f50b5.png)
+
 
